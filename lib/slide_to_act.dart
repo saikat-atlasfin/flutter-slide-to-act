@@ -205,7 +205,7 @@ class SlideActionState extends State<SlideAction> with TickerProviderStateMixin 
 
                                     await _checkAnimation();
 
-                                    await widget.onSubmit?.call();
+                                    // await widget.onSubmit?.call();
 
                                     await reset();
                                   }
