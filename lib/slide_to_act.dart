@@ -374,14 +374,14 @@ class SlideActionState extends State<SlideAction> with TickerProviderStateMixin 
     );
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      final RenderBox containerBox = _containerKey.currentContext!.findRenderObject() as RenderBox;
-      _containerWidth = containerBox.size.width;
-      _initialContainerWidth = _containerWidth;
+      // final RenderBox containerBox = _containerKey.currentContext!.findRenderObject() as RenderBox;
+      // _containerWidth = containerBox.size.width;
+      // _initialContainerWidth = _containerWidth;
 
-      final RenderBox sliderBox = _sliderKey.currentContext!.findRenderObject() as RenderBox;
-      final sliderWidth = sliderBox.size.width;
+      // final RenderBox sliderBox = _sliderKey.currentContext!.findRenderObject() as RenderBox;
+      // final sliderWidth = sliderBox.size.width;
 
-      _maxDx = _containerWidth! - (sliderWidth / 2) - 40 - widget.sliderButtonYOffset;
+      // _maxDx = _containerWidth! - (sliderWidth / 2) - 40 - widget.sliderButtonYOffset;
     });
   }
 
